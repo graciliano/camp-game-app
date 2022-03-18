@@ -1,0 +1,27 @@
+section {
+  background-color: #005b9f;
+  height: 100%;
+}
+
+div.flex {
+  align-items: center;
+  flex-direction: column;
+  padding-top: 150px;
+  height: 100%;
+}
+
+.login-button {
+  background-color: #005b9f;
+  color: white;
+  width: 70%;
+}
+
+.mat-card {
+  padding: 25px !important;
+  .mat-card-title {
+    margin-bottom: 30px !important;
+  }
+  .mat-card-actions {
+    justify-content: center;
+  }
+}

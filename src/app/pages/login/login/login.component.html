@@ -1,0 +1,25 @@
+<section>
+  <div class="flex">
+    <label class="mat-display-3 text-center page-title">CAMP-GAME TRADE</label>
+    <mat-card class="col-10 col-sm-5 col-lg-5 col-xl-5">
+      <mat-card-title class="mat-display-2 text-center">Entrar</mat-card-title>
+      <form>
+        <mat-form-field class="col-12" appearance="fill">
+          <mat-label>Usuário</mat-label>
+          <input matInput>
+          <mat-icon matSuffix>account_circle</mat-icon>
+        </mat-form-field>
+        <mat-form-field class="col-12" appearance="fill">
+          <mat-label>Senha</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'">
+          <button mat-icon-button type="button" matSuffix (click)="hide = !hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+      </form>
+      <mat-card-actions align="end" class="flex">
+        <button mat-raised-button class="login-button">Entrar</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</section>
