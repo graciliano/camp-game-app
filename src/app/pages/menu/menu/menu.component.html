@@ -11,14 +11,14 @@
       </div>
       <div class="row">
         <div class="col-12 menu">
-          <button mat-raised-button>
+          <button mat-raised-button (click)="getFirestoreItems()">
             Clube
           </button>
         </div>
       </div>
       <div class="row">
         <div class="col-12 menu">
-          <button mat-raised-button>
+          <button mat-raised-button (click)="saveData()">
             Jogadores
           </button>
         </div>
@@ -27,6 +27,41 @@
         <div class="col-12 menu">
           <button mat-raised-button>
             Mercado
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 menu">
+          <button mat-raised-button (click)="updateLeagues()">
+            Update Leagues
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 menu">
+          <button mat-raised-button (click)="updateClubs()">
+            Update Clubs
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 menu">
+          <button mat-raised-button (click)="getClubs()">
+            Get Clubs
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 menu">
+          <button mat-raised-button (click)="updateFifaPlayers()">
+            Update Players
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 menu">
+          <button mat-raised-button (click)="getFifa22Players()">
+            Get Players
           </button>
         </div>
       </div>
